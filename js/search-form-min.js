@@ -1,0 +1,1 @@
+var searchBtn=document.querySelector(".btn-search-hotel"),popup=document.querySelector(".ordering");searchBtn.addEventListener("click",function(a){a.preventDefault();popup.classList.toggle("ordering-show")});
